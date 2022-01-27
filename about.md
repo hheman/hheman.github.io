@@ -1,7 +1,6 @@
 ---
 layout: default
-title: About
+title: about
+heading: about
 ---
-# About
-
 This says a little bit about me.

@@ -1,14 +1,13 @@
 ---
 layout: default
 title: blog
+heading: posts
 ---
-<h3><span class="list-heading">posts</span></h3>
 <ul>
     {% for post in site.posts %}
         <li>
             <div class="post-container">
-                <h3><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}</h3>
-                {{ post.excerpt }}
+                <p><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}</p>
             </div>
         </li>
     {% endfor %}
