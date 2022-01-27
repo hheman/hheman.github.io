@@ -25,6 +25,11 @@ a, a:hover, a:visited, a:active {
     font-weight: bold;
 }
 
-.page-heading, .list-heading, .post-heading {
+.list-heading, .page-heading, .post-heading {
     background-color:#e9e9e9;
+}
+
+.post-date-container {
+    padding-left: 5px;
+    border-left: solid pink;
 }
