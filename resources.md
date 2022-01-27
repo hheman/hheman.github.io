@@ -2,7 +2,7 @@
 layout: default
 title: Resources
 ---
-<h2>Interesting Blogs</h2>
+<h3><span class="list-heading">interesting blogs</span></h3>
 <ul>
     {% for item in site.data.interesting-blogs %}
     <li>
@@ -11,7 +11,7 @@ title: Resources
     {% endfor %}
 </ul>
 
-<h2>Software landing pages</h2>
+<h3><span class="list-heading">software landing pages</span></h3>
 <p>Landing pages/documentation pages for organizations responsible for widely used pieces of software (mostly open-source) that one could learn from just browsing.</p>
 <ul>
     {% for item in site.data.software-docs %}
@@ -21,7 +21,7 @@ title: Resources
     {% endfor %}
 </ul>
 
-<h2>Interesting Blog Posts</h2>
+<h3><span class="list-heading">interesting blog posts</span></h3>
 <ul>
     {% for item in site.data.interesting-posts %}
     <li>
@@ -30,7 +30,7 @@ title: Resources
     {% endfor %}
 </ul>
 
-<h2>Learning Resources</h2>
+<h3><span class="list-heading">learning resources</span></h3>
 <ul>
     {% for item in site.data.for-learning %}
     <li>
