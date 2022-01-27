@@ -1,0 +1,6 @@
+- name: excellent explanation of git basics
+  link: https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/
+- name: starving threads in ruby
+  link: https://piotrjatkowski.com/blog/starving-threads-in-ruby
+- name: how browsers work (from 2011)
+  link: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/

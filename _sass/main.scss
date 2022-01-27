@@ -1,3 +1,12 @@
-.current {
+.container {
+    margin: 0px auto;
+    width: 1068px;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-current-item {
     font-weight: bold;
 }
