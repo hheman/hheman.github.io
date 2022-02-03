@@ -38,3 +38,12 @@ title: resources
     </li>
     {% endfor %}
 </ul>
+
+<p><span class="list-heading">youtube channels</span></p>
+<ul>
+    {% for item in site.data.youtube-channels %}
+    <li>
+        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+</ul>
