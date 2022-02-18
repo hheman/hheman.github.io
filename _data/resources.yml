@@ -32,6 +32,10 @@
       link: https://www.youtube.com/watch?v=o_AIw9bGogo&t=2176s
     - name: the story of react
       link: https://www.youtube.com/watch?v=Wm_xI7KntDs
+    - name: why you need a build tool (java)
+      link: https://stackoverflow.com/a/8769536/4946115
+    - name: excellent introduction to ant (java build tool)
+      link: https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html
 - software_docs:
   name: software landing pages
   description: Landing pages/documentation pages for organizations responsible for widely used pieces of software (mostly open-source) that one could learn from just browsing.
