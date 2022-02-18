@@ -1,0 +1,64 @@
+- interesting_blogs:
+  name: interesting blogs
+  list:
+    - name: ACM Queue
+      link: https://queue.acm.org
+    - name: Andrew Kane
+      link: https://ankane.org/
+    - name: Java Performance Tuning
+      link: http://www.javaperformancetuning.com/tips/rawtips.shtml
+    - name: Ruby Guides
+      link: https://www.rubyguides.com
+    - name: Zen Spider by Ryan Davis
+      link: https://zenspider.com
+    - name: 0pointer
+      link: https://0pointer.net/blog/
+- interesting_posts:
+  name: interesting posts
+  list:
+    - name: excellent explanation of git basics
+      link: https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/
+    - name: starving threads in ruby
+      link: https://piotrjatkowski.com/blog/starving-threads-in-ruby
+    - name: how browsers work (from 2011)
+      link: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+    - name: object creation in java is slow
+      link: https://stackoverflow.com/questions/3485844/object-creation-in-java-is-slow/3485895#3485895
+    - name: javac option to compile all java files under a given directory recursively
+      link: https://stackoverflow.com/questions/6623161/javac-option-to-compile-all-java-files-under-a-given-directory-recursively
+    - name: should we avoid object creation in java?
+      link: https://softwareengineering.stackexchange.com/questions/149563/should-we-avoid-object-creation-in-java
+    - name: The tragedy of systemd
+      link: https://www.youtube.com/watch?v=o_AIw9bGogo&t=2176s
+    - name: the story of react
+      link: https://www.youtube.com/watch?v=Wm_xI7KntDs
+- software_docs:
+  name: software landing pages
+  description: Landing pages/documentation pages for organizations responsible for widely used pieces of software (mostly open-source) that one could learn from just browsing.
+  list:
+    - name: v8
+      link: https://v8.dev/
+    - name: ExpressJS
+      link: https://expressjs.com/
+    - name: apache http server project
+      link: https://httpd.apache.org/
+    - name: nginx
+      link: https://www.nginx.com/blog/
+- youtube_channels:
+  name: youtube channels
+  list:
+    - name: linux.conf.au
+      link: https://www.youtube.com/c/linuxconfau
+    - name: Brian Will
+      link: https://www.youtube.com/user/briantwill
+    - name: Neetcode
+      link: https://www.youtube.com/c/NeetCode
+    - name: Brian Will
+      link: https://www.youtube.com/user/briantwill
+    - name: Brian Will
+      link: https://www.youtube.com/user/briantwill
+- for_learning:
+  name: learning resources
+  list:
+    - name: Ruby Monk
+      link: https://rubymonk.com

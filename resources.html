@@ -2,48 +2,16 @@
 layout: default
 title: resources
 ---
-<p><span class="list-heading">interesting blogs</span></p>
-<ul>
-    {% for item in site.data.interesting-blogs %}
-    <li>
-        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
-    </li>
-    {% endfor %}
-</ul>
-
-<p><span class="list-heading">software landing pages</span></p>
-<p>Landing pages/documentation pages for organizations responsible for widely used pieces of software (mostly open-source) that one could learn from just browsing.</p>
-<ul>
-    {% for item in site.data.software-docs %}
-    <li>
-        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
-    </li>
-    {% endfor %}
-</ul>
-
-<p><span class="list-heading">interesting blog posts</span></p>
-<ul>
-    {% for item in site.data.interesting-posts %}
-    <li>
-        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
-    </li>
-    {% endfor %}
-</ul>
-
-<p><span class="list-heading">learning resources</span></p>
-<ul>
-    {% for item in site.data.for-learning %}
-    <li>
-        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
-    </li>
-    {% endfor %}
-</ul>
-
-<p><span class="list-heading">youtube channels</span></p>
-<ul>
-    {% for item in site.data.youtube-channels %}
-    <li>
-        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
-    </li>
-    {% endfor %}
-</ul>
+{% for resource in site.data.resources %}
+    <p><span class="list-heading">{{ resource.name }}</span></p>
+    {% if resource.description %}
+        <p>{{ resource.description }}</p>
+    {% endif %}
+    <ul>
+        {% for item in resource.list %}
+        <li>
+            <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>    
+{% endfor %}
